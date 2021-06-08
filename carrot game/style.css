@@ -1,0 +1,130 @@
+@import "./reset.css";
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+button {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 15%;
+    border: 2px solid black;
+    background-color: burlywood;
+    
+}
+
+.background {
+    position: relative;
+    width: 740px;
+    height: 418px;
+    border-radius: 15px;
+    background-image: url("./img/background.png");
+    background-color: blue;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.info,
+.items{
+    height: 209px;
+}
+
+/* info */
+.info {
+    display: flex;
+    justify-content: center;
+    /* background-color: cadetblue; */
+}
+
+.info_wrap {
+    display: flex;
+    flex-direction : column ;
+    align-items: center;    
+    margin-top: 20px;
+}
+
+.play_btn {
+    margin-bottom: 7px;
+    background-image: url("./img/play.png");
+    background-size: contain;
+}
+
+.restart_btn {
+    margin-bottom: 7px;
+    background-image: url("./img/start.png");
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 45px;
+    margin-bottom: 7px;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: #ffffff;
+}
+
+.counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid black;
+    background-color: coral;
+}
+
+
+/* items */
+.items {
+    /* background-color: rgb(156, 111, 95); */
+}
+
+.carrots,
+.bugs {
+    position: relative;
+}
+
+.carrot,
+.bug {
+    position: absolute;
+    /* transform: translateX(670px)  translateY(120px) ; */
+}
+
+
+/* popup */
+.popup {
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 50%;
+    width: 350px;
+    height: 120px;
+    border-radius: 15px;
+    text-align: center;
+    color: #fff;
+    background-color:rgba(0,0,0,0.5);
+}
+
+.replay_btn {
+    margin: 10px auto 15px;
+    background-image: url("./img/replay.png");
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    
+}

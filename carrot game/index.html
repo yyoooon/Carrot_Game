@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./app.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class = "background">
+        <section class ="info">
+            <div class="info_wrap">
+                <button type="button" class="play_btn"></button>
+                <div class = "timer">
+                    <span class ="time_text">00:00</span>
+                </div>
+                <div class = "counter">
+                    <span class ="num_count_text">10</span>
+                </div>
+            </div>
+        </section>
+        <section class = "items">
+                <ul class = "carrots">
+                </ul>
+                <ul class = "bugs">
+                </ul>
+        </section>
+    </div>
+
+    <div class = "audios" aria-disabled="true">
+        <audio id='back_music' src="./sound/bg.mp3" ></audio>
+        <audio id='bug_pull' src='./sound/bug_pull.mp3'></audio>
+        <audio id='carrot_pull' src="./sound/carrot_pull.mp3"></audio>
+        <audio id='game_lose' src="./sound/game_lose.wav"></audio>
+        <audio id='game_win' src="./sound/game_win.mp3"></audio>
+    </div>
+</body>
+</html>
