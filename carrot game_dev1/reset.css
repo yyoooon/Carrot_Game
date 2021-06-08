@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 20px;
+  }
+
+
+
+ul,
+ol,
+li,
+dl,
+dt,
+dd {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button:focus,
+button:active,
+input:focus,
+input:active {
+  outline: none;
+  box-shadow: none;
+}
+
+button {
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  background: transparent;
+}
+
+input {
+  border: none;
+}
+
+button,
+input,
+textarea {
+  font-family;
+}
