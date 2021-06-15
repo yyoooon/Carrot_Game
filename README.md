@@ -5,11 +5,9 @@
 [Study Note link](https://www.notion.so/yoonnote/Carrot-game-226becd7589b4ce7a2d5a4abc55b1c37)
 
 </br>
-<img src="carrot_game_img.png"  width="500" height="100%">
-<img src="carrot_game_img_won.png"  width="500" height="100%">
-<img src="carrot_game_img_lost.png"  width="500" height="100%">
-</br>
-</br>
+<img width="642" alt="carrot_game_img" src="https://user-images.githubusercontent.com/81611808/122000922-89085c80-cdea-11eb-99a8-21c979b03811.png">
+<img width="642" alt="carrot_game_img_won" src="https://user-images.githubusercontent.com/81611808/122000935-8c9be380-cdea-11eb-90e3-f8d804c19043.png">
+<img width="641" alt="carrot_game_img_lost" src="https://user-images.githubusercontent.com/81611808/122000941-8e65a700-cdea-11eb-9ed6-9fd3b7d58277.png">
 </br>
 
 # Version
@@ -17,14 +15,12 @@
 - **dev2 - 함수들을 모듈화**
 - **repacktoring - 클래스로 정리**
 </br>
-</br>
-</br>
+
 # Getting Started
-- **carrot game / carrot game_dev1은 로컬에서 실행 가능합니다.**
-- **carrot game_dev2 / carrot game_repacktoring은 서버를 사용해 실행해야합니다.** (CORS Error)
+- **carrot game / carrot game_dev1**은 로컬에서 실행 가능합니다.
+- **carrot game_dev2 / carrot game_repacktoring**은 서버를 사용해 실행해야합니다. (CORS Error)
 </br>
-</br>
-</br>
+
 # Improvement
-**레벨 기능을 만들어 단계 별로 제한 시간과 당근, 벌레의 갯수를 조정해 볼 것입니다.**
+레벨 기능을 만들어 단계 별로 제한 시간과 당근, 벌레의 갯수를 조정해 볼 것입니다.
 
