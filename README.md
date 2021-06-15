@@ -10,17 +10,18 @@
 <img width="641" alt="carrot_game_img_lost" src="https://user-images.githubusercontent.com/81611808/122000941-8e65a700-cdea-11eb-9ed6-9fd3b7d58277.png">
 </br>
 
-# Version
+## Version
 - **dev1 - 코드를 함수로 정리**
 - **dev2 - 함수들을 모듈화**
 - **repacktoring - 클래스로 정리**
 </br>
 
-# Getting Started
+## Usage
+- 폴더를 다운 받고 **index.html**파일을 실행시킵니다
 - **carrot game / carrot game_dev1**은 로컬에서 실행 가능합니다.
 - **carrot game_dev2 / carrot game_repacktoring**은 서버를 사용해 실행해야합니다. (CORS Error)
 </br>
 
-# Improvement
+## Improvement
 레벨 기능을 만들어 단계 별로 제한 시간과 당근, 벌레의 갯수를 조정해 볼 것입니다.
 
